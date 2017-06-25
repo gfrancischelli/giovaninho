@@ -1,47 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+  <body>
+    <h1>Teste</h1>
+    <h2>Outro teste</h2>
+    <h3 id="outroTeste"></h3>
 
-<Document HTML>
-    <html>
-        <head>
-            
-            <meta charset="utf-8" />
-            
-           
-            
-        </head>
+    <!-- Da pra acessar as forms da página com document.forms
+    ---- Ai seleciona pelo "name" da form. Mesma coisa com seus inputs
+    -->
+    <form name="nomeDaForm" id ="formID">
+        <input name="nomeDoInput" type="text" value="Jupiter">
+        <button type="submit">Cabum !</button>
+    </form>
 
-
-
-        <body>
-                            
-            
-            <h1>Teste</h1>
-            
-            <h2>Outro teste</h2>
-            
-            <h3 id="outroTeste"></h3>
-                
-            
-            <form id ="formID">
-                
-                <input type="text" id="TesteID" name="Teste" value="Jupiter">
-                
-                <input type="submit" value="Manda isso" onsubmit="Macaco()">  
-                
-                <input type="submit" value="Cabum !" onsubmit="console.log('testando')">
-                
-                
-            </form>
-            
-            
-             <script type="text/javascript" src="javascript.js">
-                
-   
-}
-            </script>
-            
-        </body>
-
-    </html>
-
-    
-</Document>
+   <script type="text/javascript" src="javascript.js"></script>
+  </body>
+</html>
